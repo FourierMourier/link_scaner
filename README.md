@@ -14,9 +14,9 @@ python main.py --dirpath your_directory --output output.csv --extensions .py,.ym
 
 The resulting CSV file includes the discovered URLs and their respective file paths.
 
-| URL                  | File                              | 
-|----------------------|-----------------------------------|
-| http://imnotscamlink | C://stable/and/secure/software.py |
+| URL                   | File                              | 
+|-----------------------|-----------------------------------|
+| http: //imnotscamlink | C://stable/and/secure/software.py |
 
 
 ### Command-Line Arguments:
