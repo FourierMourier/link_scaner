@@ -43,7 +43,7 @@ The resulting CSV file includes the discovered URLs and their respective file pa
 
 The 'site-packages' directory contains third-party packages installed in Python. To locate it, follow these steps:
 1. Activate your environment or skip it if you use system python
-2. As suggested [here](https://stackoverflow.com/q/69303826) run 
+2. As suggested [here](https://stackoverflow.com/a/122340) run 
     ```python
     python -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
     ```
