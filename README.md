@@ -10,6 +10,15 @@ To execute `link_scanner`, use the following command:
 python main.py --dirpath your_directory --output output.csv --extensions .py,.yml,.yaml,.txt,.cfg,.ini --regex https?://\S+
 ```
 
+## Output example
+
+The resulting CSV file includes the discovered URLs and their respective file paths.
+
+| URL                  | File                              | 
+|----------------------|-----------------------------------|
+| http://imnotscamlink | C://stable/and/secure/software.py |
+
+
 ### Command-Line Arguments:
 
 - `--dirpath`: Directory where the scanning will take place.
@@ -22,6 +31,9 @@ python main.py --dirpath your_directory --output output.csv --extensions .py,.ym
 - Use the command-line arguments to specify the scanning parameters.
 - Ensure you have Python 3.x installed.
 - Example command to execute the script is provided above.
+
+# Public Domain Software
+This software is released to the public domain without any license restrictions.
 
 # Acknowledgments
 This README was created with the assistance of OpenAI's ChatGPT, a large language model.
