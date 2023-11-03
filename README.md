@@ -7,13 +7,13 @@ This command-line tool is built to detect URL addresses within files located in 
 To execute `link_scanner`, use the following command:
 
 ```bash
-python main.py --dirpath path_to_dir_to_scan --output output.csv
+python linkscaner.py --dirpath path_to_dir_to_scan --output output.csv
 ```
 
 If you want to customize it a bit you can use all args:
 
 ```bash
-python main.py --dirpath your_directory --output output.csv --extensions .py,.yml,.yaml,.txt,.cfg,.ini --regex https?://\S+
+python linkscaner.py --dirpath your_directory --output output.csv --extensions .py,.yml,.yaml,.txt,.cfg,.ini --regex https?://\S+
 ```
 
 ## Output example
